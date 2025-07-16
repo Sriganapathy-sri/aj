@@ -142,7 +142,11 @@
 
     async function signup(e) {
       e.preventDefault();
+<<<<<<< HEAD
       const res = await fetch('http://47.128.230.47/signup', {
+=======
+      const res = await fetch('http://47.128.230.47:5000/signup', {
+>>>>>>> 74eca0e (second)
         method: 'POST',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({
